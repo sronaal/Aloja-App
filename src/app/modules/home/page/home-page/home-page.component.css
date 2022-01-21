@@ -1,0 +1,115 @@
+.container-home{
+
+    padding: 0;
+    max-width: 100%;
+    
+
+}
+
+.container-banner{
+    display: flex;
+    background-color: #ECECEC;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    
+}
+
+.container-slogan{
+    padding: 0 5%;
+}
+
+.container-slogan h1{
+    display: inline-block;
+    font-size: 35px;
+    margin: 1% 5%;
+    color: #343A40;
+    font-weight: 600;
+    
+}
+.container-slogan h2{
+    margin: 0% 5%;
+    font-weight: 500;
+    color: #1A202C
+}
+.container-slogan a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 4% 5%;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 200px;
+
+}
+.btn-1{
+    background-color: #789B8B;
+    color: #F4F4F4;   
+}
+
+.btn-2{
+    background-color: #D4DFDA;
+    color: #66AD8C;
+}
+
+.container-images img{
+
+    border-radius: 2%;
+    max-width: 90%;
+    margin: 30% 0;
+    height: auto;
+}
+
+
+
+/* Resposive */
+
+@media (max-width: 1400px){
+    .container-banner{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container-slogan{
+        padding-top: 6%;
+        margin: 0 20%;
+    }
+    .container-slogan h1{
+        margin: 4% 5%;
+    }
+    .container-images img{
+        margin: 5% 16%;
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 900px){
+
+    .container-slogan{
+        padding-top: 30%;
+        padding-left: 25px;
+        text-align: inherit;
+        margin: 0 10%;
+    }
+    .container-slogan h1{
+        display: inline-block;
+        padding: 0;
+        width: 290px;
+        font-size: 20px;
+    }
+    .container-slogan h2{
+        font-size: 18px;
+    }
+    
+    .container-slogan a{
+        margin-bottom: 5%;
+        margin-top: 5%;
+        width: 114px;
+        font-size: 11px;
+    }
+
+
+}

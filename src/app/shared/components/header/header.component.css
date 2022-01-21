@@ -1,0 +1,87 @@
+header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #E2E2E2; 
+    height: 70px;
+    font-family: 'Poppins';
+    border-bottom: 1px solid black;
+    margin: 0;
+}
+
+.header-logo{
+    display: inline-block;
+    margin: 0px 25px;
+    font-weight: 100px;
+    cursor: pointer;
+    color: black;
+}
+
+nav a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+
+    
+}
+nav a:hover{
+    color: black
+}
+
+
+.nav-button a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 20px;
+    width: 180px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #66AD8C;
+    color: white;
+}
+.nav-button a:hover{
+    background-color: #63927c;
+    
+}
+/*Pantallas grandes (desktops de menos de 1200px)*/
+@media (max-width: 1199.98px) {  }
+
+/* Pantallas medianas (tablets de menos de 992px)*/
+@media (max-width: 991.98px) { 
+
+ }
+
+/* Pantallas pequeñas (móviles en landscape de menos de 768px)*/
+@media (max-width: 745px) { 
+    
+
+    .header-logo{
+        display: none;
+    }
+    .nav-button a{
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+/* Pantallas muy pequeñas (móviles en portrait de menos de 576px) */
+@media (max-width: 575.98px) {  }
+
+
