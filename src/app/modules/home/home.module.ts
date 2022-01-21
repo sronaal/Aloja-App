@@ -4,11 +4,15 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomePageComponent } from './page/home-page/home-page.component';
 import { SharedModule } from '../../shared/shared.module';
+import { CardHomeComponent } from './components/card-home/card-home.component';
+import { ExplorerComponent } from './page/explorer/explorer.component';
 
 
 @NgModule({
   declarations: [
-    HomePageComponent
+    HomePageComponent,
+    CardHomeComponent,
+    ExplorerComponent
   ],
   imports: [
     CommonModule,

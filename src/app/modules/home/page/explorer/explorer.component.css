@@ -1,0 +1,23 @@
+.container-explorer{
+    padding-top: 4%;
+    width: 100%;
+}
+
+.title-explorer{
+    width: 100%;
+    background-color: #D8E2DD;
+}
+.title-explorer h2{
+    text-align: center;
+    padding: 3%;
+    font-size: 40px;
+    font-weight: 510;
+    color: #343A40;
+}
+
+.container-cards{
+    width: 100%;
+    height: 100%;
+    padding: 2% 4%;
+    background-color: #EAECEB;
+}
