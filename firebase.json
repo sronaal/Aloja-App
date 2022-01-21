@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/AppAloja",
+    "public": "dist/app-aloja",
     "ignore": [
       "firebase.json",
       "**/.*",
