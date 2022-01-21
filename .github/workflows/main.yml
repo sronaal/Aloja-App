@@ -1,0 +1,27 @@
+
+name: CI
+
+on:
+  push:
+    branches: master
+
+
+
+  workflow_dispatch:
+
+jobs:
+  despligue-firebase:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 ## Pasa todo el proyecto a la maquina virtual
+      - uses: actions/setup-node@master # Instala NodeJS
+      - run: npm install
+      - run: npm install -g @angular/cli
+      - run: ng build 
+      
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
