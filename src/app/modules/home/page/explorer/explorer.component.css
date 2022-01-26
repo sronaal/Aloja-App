@@ -6,10 +6,11 @@
 .title-explorer{
     width: 100%;
     background-color: #D8E2DD;
+    
 }
 .title-explorer h2{
     text-align: center;
-    padding: 3%;
+    padding: 2% 6%;
     font-size: 40px;
     font-weight: 510;
     color: #343A40;
